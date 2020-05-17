@@ -1,0 +1,11 @@
+[Unit]
+Description=TP-Link auto stop
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/node /home/seravifer/proyects/tplink/main.js
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

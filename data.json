@@ -1,0 +1,14 @@
+[
+  {
+    "datetime": 1575567099202,
+    "voltage_mv": 227326,
+    "current_ma": 281,
+    "power_mw": 30137,
+    "total_wh": 564,
+    "err_code": 0,
+    "current": 0.281,
+    "power": 30.137,
+    "total": 0.564,
+    "voltage": 227.326
+  }
+]
